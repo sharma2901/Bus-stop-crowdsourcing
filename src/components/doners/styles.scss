@@ -1,0 +1,30 @@
+.donerList {
+  margin-top: 30px;
+  .label {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 2px solid #cca70a;
+    border-top: 2px solid #cca70a;
+    padding: 10px 0;
+  }
+  .list {
+    margin-top: 20px;
+    .doner {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 20px;
+      margin: 8px 0;
+      &:nth-child(2n) {
+        background-color: #f9f1ce;
+      }
+      .name {
+        font-size: 23px;
+      }
+      .amount {
+        font-weight: bold;
+        font-size: 27px;
+      }
+    }
+  }
+}

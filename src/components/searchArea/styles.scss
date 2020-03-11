@@ -1,0 +1,92 @@
+@keyframes moveup {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-50px);
+  }
+}
+
+.miniContainer {
+  animation-name: moveup;
+  animation-duration: 0.5s;
+  transform: translateY(-50px);
+}
+
+.container {
+  width: 50%;
+  .searchAreaContainer {
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    justify-content: space-between;
+    .title {
+      font-size: 30px;
+      color: #949405;
+      background-color: #f5cf29;
+      width: max-content;
+      margin: 0 auto;
+      padding: 10px;
+      font-weight: 700;
+      box-shadow: 0px 0px 10px #cca70a;
+    }
+    .searchHolder {
+      position: relative;
+      &:focus-within {
+        box-shadow: 0px 0px 10px #f5cf29;
+      }
+      .searchBar {
+        border: 2px solid #f5cf29;
+        input {
+          font-family: 'Montserrat', sans-serif;
+          width: 100%;
+          background-color: transparent;
+          border: none;
+          margin: 0;
+          padding: 2px;
+          color: rgba(0, 0, 0, 0.87);
+          word-wrap: break-word;
+          outline: none;
+          display: flex;
+          flex: 100%;
+          -webkit-tap-highlight-color: transparent;
+          margin-top: -37px;
+          height: 34px;
+          font-size: 16px;
+        }
+        .suggestionContainer {
+          position: absolute;
+          top: 10px;
+          .eachSuggetion {
+            background-color: white;
+            padding: 10px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+  .miniSearchArea {
+    flex-direction: row;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    .title {
+      letter-spacing: 3px;
+      box-shadow: none;
+      border-radius: 5px;
+      flex: 1;
+      font-size: 13px;
+      text-align: center;
+      margin-right: 10px;
+      padding: 10px 3px;
+    }
+    .searchHolder {
+      flex: 4;
+      transform: translateY(15px);
+    }
+  }
+  .donation {
+  }
+}
