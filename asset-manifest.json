@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Bus-stop-crowdsourcing/static/css/main.32dc4123.chunk.css",
+    "main.js": "/Bus-stop-crowdsourcing/static/js/main.8397068f.chunk.js",
+    "main.js.map": "/Bus-stop-crowdsourcing/static/js/main.8397068f.chunk.js.map",
+    "runtime-main.js": "/Bus-stop-crowdsourcing/static/js/runtime-main.3e3043a9.js",
+    "runtime-main.js.map": "/Bus-stop-crowdsourcing/static/js/runtime-main.3e3043a9.js.map",
+    "static/js/2.bae1ce09.chunk.js": "/Bus-stop-crowdsourcing/static/js/2.bae1ce09.chunk.js",
+    "static/js/2.bae1ce09.chunk.js.map": "/Bus-stop-crowdsourcing/static/js/2.bae1ce09.chunk.js.map",
+    "index.html": "/Bus-stop-crowdsourcing/index.html",
+    "precache-manifest.015ee5a3cbb8f81989d898ef59dab5a2.js": "/Bus-stop-crowdsourcing/precache-manifest.015ee5a3cbb8f81989d898ef59dab5a2.js",
+    "service-worker.js": "/Bus-stop-crowdsourcing/service-worker.js",
+    "static/css/main.32dc4123.chunk.css.map": "/Bus-stop-crowdsourcing/static/css/main.32dc4123.chunk.css.map",
+    "static/js/2.bae1ce09.chunk.js.LICENSE.txt": "/Bus-stop-crowdsourcing/static/js/2.bae1ce09.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3e3043a9.js",
+    "static/js/2.bae1ce09.chunk.js",
+    "static/css/main.32dc4123.chunk.css",
+    "static/js/main.8397068f.chunk.js"
+  ]
+}
